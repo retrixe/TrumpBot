@@ -1,0 +1,45 @@
+{
+  "name": "trumpbot",
+  "version": "1.0.0",
+  "description": "Trump's latest tweets, delivered directly to your beautiful Discord server/Slack workplace. Truly, a masterpiece.",
+  "main": "main.mjs",
+  "scripts": {
+    "start": "node --experimental-modules main.mjs",
+    "dev": "nodemon --experimental-modules main.mjs",
+    "retrieveBearerToken": "node --experimental-modules retrieveBearerToken.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RSG-Group/TrumpBot.git"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "btoa": "^1.1.2",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.12.1"
+  },
+  "keywords": [
+    "trump",
+    "twitter",
+    "discord",
+    "bot",
+    "amazing"
+  ],
+  "author": "Ibrahim Ansari <ansari.ibrahim1@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/RSG-Group/TrumpBot/issues"
+  },
+  "homepage": "https://github.com/RSG-Group/TrumpBot#readme"
+}
